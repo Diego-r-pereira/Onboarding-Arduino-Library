@@ -6,6 +6,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.diego.onboardingapp.Onboarding.FaceDetectionFragment;
+<<<<<<< HEAD
+=======
+import com.diego.onboardingapp.Onboarding.LoginFragment;
+>>>>>>> 92a1cd454e7243e48b63760b8a5c094750b1fa37
 import com.diego.onboardingapp.Onboarding.TextRecognitionFragment;
 import com.diego.onboardingapp.Onboarding.WelcomeFragment;
 
@@ -25,6 +29,11 @@ public class OnboardingAdapter extends FragmentPagerAdapter {
             case 1:
                 return new FaceDetectionFragment();
             case 2:
+<<<<<<< HEAD
+=======
+                return new LoginFragment();
+            case 3:
+>>>>>>> 92a1cd454e7243e48b63760b8a5c094750b1fa37
                 return new TextRecognitionFragment();
             default:
                 return null;
@@ -33,6 +42,10 @@ public class OnboardingAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
+<<<<<<< HEAD
         return 3;
+=======
+        return 4;
+>>>>>>> 92a1cd454e7243e48b63760b8a5c094750b1fa37
     }
 }

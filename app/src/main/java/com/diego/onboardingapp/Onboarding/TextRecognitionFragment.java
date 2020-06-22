@@ -58,7 +58,11 @@ public class TextRecognitionFragment extends Fragment {
         textNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 viewPager.setCurrentItem(0);
+=======
+                viewPager.setCurrentItem(3);
+>>>>>>> 92a1cd454e7243e48b63760b8a5c094750b1fa37
 //                Toast.makeText(getActivity(), "Ingresando App!!", Toast.LENGTH_SHORT).show();
             }
         });
